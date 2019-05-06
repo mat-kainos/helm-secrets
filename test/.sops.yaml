@@ -1,0 +1,4 @@
+creation_rules:
+  - path_regex: .*/secret*.yaml$
+    azure_keyvault: https://mat-test-sops.vault.azure.net/keys/rsa-test-sops/0b66e6df9b4c4a1cb137befcd162838c
+    #find -E . -regex ".*/secret*.yaml"
